@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "techober",
+    "slug": "techober",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app.techober"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.app.techober"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Techober Mobile App",
+    "extra": {
+      "eas": {
+        "projectId": "0dcd8b61-aa79-43db-be0e-2dcfa0d314e0"
+      }
+    }
+  }
+}
